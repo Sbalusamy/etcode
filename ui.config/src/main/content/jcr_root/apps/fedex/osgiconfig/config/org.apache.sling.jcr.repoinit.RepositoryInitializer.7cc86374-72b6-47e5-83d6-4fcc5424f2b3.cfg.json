@@ -1,0 +1,7 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "scripts":[
+    "create service user fedex-service-user with path /home/users/system/fedex/fedex-service-user",
+    "set ACL for fedex-service-user\r\nallow jcr:all on  /\r\nallow jcr:all on /content/fedex\r\nallow jcr:read on /conf/fedex\r\nallow jcr:read on /apps\r\nend"
+  ]
+}
