@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/fedex/clientlibs"/>
+    <filter root="/apps/fedex/components"/>
+    <filter root="/apps/fedex/i18n"/>
+    <filter root="/apps/msm/fedex_blueprint" mode="merge"/>
+</workspaceFilter>

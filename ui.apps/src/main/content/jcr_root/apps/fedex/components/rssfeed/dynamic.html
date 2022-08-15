@@ -1,0 +1,14 @@
+<template data-sly-template.rssfeed="${@ model}">
+
+<div data-sly-list.item="${model.newsFeedItems}"  class="">
+
+<div style="border:1px solid black;">
+   <div class="title"> ${item.title} </div>
+   <div class="description"> ${item.desc @ context='html'} </div>
+   <div class="publishedDate"> ${item.publishedDate} </div>
+</div>
+
+  </div>
+
+         
+</template>
